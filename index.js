@@ -10,7 +10,7 @@ app.use(express.json());
 // Activer CORS
 app.use(
   cors({
-    origin: '*', // Update with your Angular app's URL
+    origin: "http://localhost:4200", // Update with your Angular app's URL
     optionsSuccessStatus: 200, // Some legacy browsers (e.g., IE11) choke on a 204 response
   })
 );
